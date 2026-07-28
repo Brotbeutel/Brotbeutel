@@ -9,7 +9,7 @@
 
 ### About Me
 
-After training as a 3D & Visual Effects Artist and spending a decade in hospitality, I'm now turning that experience into a new career in software development.
+After training as a 3D & Visual Effects Artist and spending almost a decade in hospitality, I'm now turning that experience into a new career in software development.
 
 - Trained 3D & Visual Effects Artist, skilled in Autodesk Maya and Blender
 - Currently in a retraining program (Umschulung) to become an application developer (Fachinformatiker Anwendungsentwicklung) at GFN in Heidelberg
