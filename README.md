@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Jannik</h1>
-<h3 align="center">Aspiring Application Developer | Java & Databases | Custom Mechanical Keyboards</h3>
+<h3 align="center">Aspiring Application Developer | Java, Python & SQL | Custom Mechanical Keyboards</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Brotbeutel&label=Profile+views&color=0e75b6&style=flat" alt="Profile views" />
