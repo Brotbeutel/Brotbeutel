@@ -17,7 +17,7 @@ After training as a 3D & Visual Effects Artist and spending almost a decade in h
 - Next build: turning a G80-3000 wireless with ZMK and an nRF52840 microcontroller
 - Based near Heidelberg, Germany
 - Always happy to help if you need a keyboard built, fixed, or just want advice, feel free to reach out, also I'm able to print custom switch plates
-- Past builds are on my keyboard portfolio: [J-Keebs](https://brotbeutel.github.io/index.html)
+- Past builds are on my keyboard portfolio: [J-Keebs](https://brotbeutel.github.io/j-keebs)
 
 ---
 
@@ -70,7 +70,7 @@ My J-Keebs website, currently under construction. I present my keyboard portfoli
   <a href="mailto:jannik_schlueter@hotmail.de">
     <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
   </a>
-  <a href="https://brotbeutel.github.io/04_keyboards.html">
+  <a href="https://brotbeutel.github.io/j-keebs">
     <img src="https://img.shields.io/badge/Keyboard_Portfolio-J--Keebs-1a1a1a?style=for-the-badge" />
   </a>
 </p>
