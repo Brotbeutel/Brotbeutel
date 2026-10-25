@@ -32,8 +32,8 @@ Supporting documentation for both G80-3000 builds: datasheets, pinouts, and buil
 **[Kundenverwaltung](https://github.com/Brotbeutel/Kundenverwaltung)**
 A customer management web app (Flask, SQLAlchemy, SQLite) with employee login, role management, and GDPR-compliant deletion. Built as a group project with two classmates during the retraining program.
 
-**[j-keebs](https://github.com/Brotbeutel/Brotbeutel.github.io)**
-My J-Keebs website, currently under construction. I present my keyboard portfolio there and write about mechanical keyboards while practicing my HTML and CSS skills.
+**[J-Keebs](https://github.com/Brotbeutel/Brotbeutel.github.io)**
+My mechanical keyboard website, currently under construction. I present my keyboard portfolio there and write about mechanical keyboards while practicing my HTML and CSS skills.
 
 ---
 
