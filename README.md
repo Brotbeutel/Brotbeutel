@@ -1,4 +1,4 @@
-<h1 align="center">Jannik <span aria-hidden="true">⌁</span> Brotbeutel</h1>
+<h1 align="center">Jannik <span aria-hidden="true">⌨</span> Brotbeutel</h1>
 <p align="center">
   <kbd>KEYBOARDS</kbd> <kbd>CODE</kbd> <kbd>DESIGN</kbd> <kbd>MAKING</kbd>
 </p>
