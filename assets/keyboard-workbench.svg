@@ -1,89 +1,87 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-  <title id="title">Brotbeutel keyboard workshop</title>
-  <desc id="desc">A warm, retro-inspired workshop banner with a mechanical keyboard, keycaps and circuit traces.</desc>
+  <title id="title">Brotbeutel — a keyboard maker's corner</title>
+  <desc id="desc">A warm, printed-paper style banner with chunky vintage keycaps and a small retro computer-inspired motif.</desc>
   <defs>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#d7c5a7" stroke-opacity=".10" stroke-width="1"/>
+    <pattern id="paper" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="8" r=".8" fill="#806f54" opacity=".16"/>
+      <circle cx="29" cy="31" r=".65" fill="#806f54" opacity=".12"/>
+      <path d="M13 39l4-.5M36 9l3 .4" stroke="#806f54" stroke-width=".6" opacity=".12"/>
     </pattern>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#302d27"/>
-      <stop offset="1" stop-color="#514333"/>
-    </linearGradient>
-    <linearGradient id="key" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e4d3b5"/>
-      <stop offset="1" stop-color="#b99b70"/>
-    </linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
-      <feOffset dy="7"/>
-      <feComponentTransfer><feFuncA type="linear" slope=".35"/></feComponentTransfer>
-      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <pattern id="weave" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 0H8M0 0V8" stroke="#4c493c" stroke-width=".6" opacity=".12"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="390" rx="22" fill="url(#bg)"/>
-  <rect width="1200" height="390" rx="22" fill="url(#grid)"/>
-  <path d="M0 310H1200" stroke="#c59a5b" stroke-opacity=".35"/>
-  <g fill="none" stroke="#c59a5b" stroke-opacity=".35" stroke-width="2">
-    <path d="M720 30h85v34h45"/><path d="M760 360v-42h80v-28h42"/>
-    <path d="M1100 80h-38v38h-40"/><path d="M1120 260h-55v-24h-40"/>
-    <circle cx="850" cy="64" r="4" fill="#c59a5b"/><circle cx="882" cy="290" r="4" fill="#c59a5b"/>
-    <circle cx="1022" cy="118" r="4" fill="#c59a5b"/><circle cx="1025" cy="236" r="4" fill="#c59a5b"/>
-  </g>
-  <g transform="translate(72 66)">
-    <text x="0" y="18" fill="#c59a5b" font-family="monospace" font-size="14" letter-spacing="4">PERSONAL KEYBOARD WORKSHOP / EST. 2024</text>
-    <text x="0" y="94" fill="#f0e5d2" font-family="Georgia,serif" font-size="58" font-weight="bold">BROTBEUTEL</text>
-    <path d="M2 116h390" stroke="#c59a5b" stroke-width="3"/>
-    <text x="2" y="158" fill="#d7c5a7" font-family="monospace" font-size="20" letter-spacing="2">KEYBOARDS · CODE · DESIGN</text>
-    <text x="2" y="205" fill="#a99a83" font-family="monospace" font-size="14">BUILDING THINGS THAT CLICK.</text>
-    <g transform="translate(0 246)" font-family="monospace" font-size="11" letter-spacing="2" fill="#c59a5b">
-      <text x="0" y="0">HARDWARE</text><circle cx="91" cy="-4" r="2" fill="#c59a5b"/>
-      <text x="108" y="0">FIRMWARE</text><circle cx="205" cy="-4" r="2" fill="#c59a5b"/>
-      <text x="222" y="0">MAKING</text>
+
+  <rect width="1200" height="390" fill="#e9dfc9"/>
+  <rect width="1200" height="390" fill="url(#paper)"/>
+  <rect x="17" y="17" width="1166" height="356" fill="none" stroke="#514b3c" stroke-width="2"/>
+  <rect x="24" y="24" width="1152" height="342" fill="none" stroke="#a46d45" stroke-width="1"/>
+
+  <g transform="translate(62 54)">
+    <text x="0" y="12" fill="#9a5638" font-family="monospace" font-size="13" letter-spacing="3">NOTES FROM THE KEYBOARD WORKSHOP</text>
+    <text x="-2" y="103" fill="#38382f" font-family="Georgia,serif" font-size="72" font-weight="bold" letter-spacing="-2">BROTBEUTEL</text>
+    <path d="M2 123h540" stroke="#9a5638" stroke-width="4"/>
+    <text x="2" y="169" fill="#514b3c" font-family="Georgia,serif" font-size="27" font-style="italic">Keyboards, code &amp; other things made by hand.</text>
+    <g transform="translate(2 220)">
+      <rect x="0" y="0" width="120" height="31" fill="#6d7456"/>
+      <text x="60" y="21" text-anchor="middle" fill="#f2e9d8" font-family="monospace" font-size="12" letter-spacing="1">BUILD</text>
+      <rect x="130" y="0" width="120" height="31" fill="#a45e3f"/>
+      <text x="190" y="21" text-anchor="middle" fill="#f2e9d8" font-family="monospace" font-size="12" letter-spacing="1">MOD</text>
+      <rect x="260" y="0" width="120" height="31" fill="#514b3c"/>
+      <text x="320" y="21" text-anchor="middle" fill="#f2e9d8" font-family="monospace" font-size="12" letter-spacing="1">MAKE</text>
     </g>
+    <text x="2" y="292" fill="#766d59" font-family="monospace" font-size="12" letter-spacing="2">A PERSONAL COLLECTION OF PROJECTS &amp; EXPERIMENTS</text>
   </g>
-  <g transform="translate(700 64) rotate(-7 205 130)" filter="url(#shadow)">
-    <rect x="0" y="0" width="430" height="260" rx="20" fill="#171815" stroke="#8b7658" stroke-width="3"/>
-    <rect x="13" y="13" width="404" height="234" rx="13" fill="#38372f" stroke="#71634d"/>
-    <g id="keys">
-      <g transform="translate(30 30)">
-        <g fill="url(#key)" stroke="#8e795a" stroke-width="2">
-          <rect x="0" y="0" width="54" height="48" rx="7"/>
-          <rect x="65" y="0" width="54" height="48" rx="7"/>
-          <rect x="130" y="0" width="54" height="48" rx="7"/>
-          <rect x="195" y="0" width="54" height="48" rx="7"/>
-          <rect x="260" y="0" width="54" height="48" rx="7"/>
-          <rect x="325" y="0" width="44" height="48" rx="7"/>
-          <rect x="0" y="60" width="54" height="48" rx="7"/>
-          <rect x="65" y="60" width="54" height="48" rx="7"/>
-          <rect x="130" y="60" width="54" height="48" rx="7"/>
-          <rect x="195" y="60" width="54" height="48" rx="7"/>
-          <rect x="260" y="60" width="54" height="48" rx="7"/>
-          <rect x="325" y="60" width="44" height="48" rx="7"/>
-          <rect x="0" y="120" width="70" height="48" rx="7"/>
-          <rect x="81" y="120" width="54" height="48" rx="7"/>
-          <rect x="146" y="120" width="119" height="48" rx="7"/>
-          <rect x="276" y="120" width="93" height="48" rx="7"/>
-        </g>
-        <g fill="#66543c" font-family="monospace" font-size="11" text-anchor="middle">
-          <text x="27" y="29">Q</text><text x="92" y="29">W</text><text x="157" y="29">E</text><text x="222" y="29">R</text><text x="287" y="29">T</text><text x="347" y="29">Y</text>
-          <text x="27" y="89">A</text><text x="92" y="89">S</text><text x="157" y="89">D</text><text x="222" y="89">F</text><text x="287" y="89">G</text><text x="347" y="89">H</text>
-          <text x="35" y="149">SHIFT</text><text x="108" y="149">CTRL</text><text x="205" y="149">SPACE</text><text x="322" y="149">ENTER</text>
-        </g>
-        <rect x="195" y="60" width="54" height="48" rx="7" fill="#c59a5b" stroke="#f0d7ad" stroke-width="2">
-          <animate attributeName="y" values="60;64;60" dur="2.8s" repeatCount="indefinite"/>
-        </rect>
-        <text x="222" y="89" fill="#473b2b" font-family="monospace" font-size="11" text-anchor="middle">F</text>
+
+  <!-- A little old-school keyboard, drawn like a print illustration -->
+  <g transform="translate(710 64) rotate(5 210 125)">
+    <path d="M22 22L418 0L444 222L45 249Z" fill="#514b3c"/>
+    <path d="M10 9L406 -12L432 210L33 237Z" fill="#b7a78a" stroke="#38382f" stroke-width="4"/>
+    <path d="M22 21L394 2L416 194L44 215Z" fill="#6d7456" stroke="#38382f" stroke-width="3"/>
+    <path d="M22 21L394 2L416 194L44 215Z" fill="url(#weave)"/>
+    <g transform="translate(42 35) skewY(-3)">
+      <g fill="#e9dfc9" stroke="#514b3c" stroke-width="2">
+        <rect x="0" y="0" width="48" height="43"/>
+        <rect x="56" y="-3" width="48" height="43"/>
+        <rect x="112" y="-6" width="48" height="43"/>
+        <rect x="168" y="-9" width="48" height="43"/>
+        <rect x="224" y="-12" width="48" height="43"/>
+        <rect x="280" y="-15" width="48" height="43"/>
+        <rect x="0" y="51" width="48" height="43"/>
+        <rect x="56" y="48" width="48" height="43"/>
+        <rect x="112" y="45" width="48" height="43"/>
+        <rect x="168" y="42" width="48" height="43"/>
+        <rect x="224" y="39" width="48" height="43"/>
+        <rect x="280" y="36" width="48" height="43"/>
+        <rect x="0" y="102" width="65" height="43"/>
+        <rect x="73" y="99" width="48" height="43"/>
+        <rect x="129" y="96" width="144" height="43"/>
+        <rect x="281" y="93" width="48" height="43"/>
       </g>
+      <g fill="#514b3c" font-family="monospace" font-size="12" text-anchor="middle">
+        <text x="24" y="27">Q</text><text x="80" y="24">W</text><text x="136" y="21">E</text><text x="192" y="18">R</text><text x="248" y="15">T</text><text x="304" y="12">Z</text>
+        <text x="24" y="78">A</text><text x="80" y="75">S</text><text x="136" y="72">D</text><text x="192" y="69">F</text><text x="248" y="66">G</text><text x="304" y="63">H</text>
+        <text x="32" y="129">SHIFT</text><text x="97" y="126">CTRL</text><text x="201" y="123">SPACE</text><text x="305" y="120">FN</text>
+      </g>
+      <rect x="168" y="42" width="48" height="43" fill="#c18a52" stroke="#514b3c" stroke-width="2">
+        <animate attributeName="y" values="42;46;42" dur="3.6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="192" y="69" fill="#38382f" font-family="monospace" font-size="12" text-anchor="middle">F</text>
     </g>
-    <path d="M24 216h382" stroke="#c59a5b" stroke-opacity=".55"/>
-    <circle cx="35" cy="231" r="4" fill="#c59a5b"/>
-    <circle cx="51" cy="231" r="4" fill="#7e9875"/>
-    <text x="395" y="234" fill="#cbb998" font-family="monospace" font-size="9" text-anchor="end">QMK / CUSTOM BUILD</text>
+    <path d="M51 222l365-19" stroke="#38382f" stroke-width="3"/>
+    <text x="405" y="232" fill="#e9dfc9" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="1">CUSTOM / ISO-DE</text>
   </g>
-  <g transform="translate(1080 30)">
-    <circle cx="0" cy="0" r="18" fill="none" stroke="#c59a5b" stroke-width="2" stroke-dasharray="5 5">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="0" cy="0" r="5" fill="#c59a5b"/>
+
+  <!-- Small maker's stamp -->
+  <g transform="translate(1090 75) rotate(9)">
+    <circle cx="0" cy="0" r="37" fill="none" stroke="#a45e3f" stroke-width="2"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#a45e3f" stroke-width="1" stroke-dasharray="2 3"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#a45e3f" font-family="Georgia,serif" font-size="20" font-weight="bold">J-K</text>
+    <text x="0" y="13" text-anchor="middle" fill="#a45e3f" font-family="monospace" font-size="7" letter-spacing="1">MADE BY HAND</text>
+  </g>
+  <g transform="translate(1110 310)">
+    <path d="M0 0h40v3H0z" fill="#9a5638"/>
+    <path d="M0 9h25v3H0z" fill="#6d7456"/>
+    <path d="M0 18h34v3H0z" fill="#514b3c"/>
   </g>
 </svg>
