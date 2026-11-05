@@ -11,6 +11,7 @@
 </p>
 
 ---
+
 ## About
 
 I'm Jannik, based near Heidelberg, Germany. My background is in 3D and visual effects, followed by almost a decade in hospitality. These days I'm working towards a career in software development through an **Umschulung as Fachinformatiker für Anwendungsentwicklung** at GFN.
@@ -22,6 +23,7 @@ I enjoy projects where software, hardware and design meet. Mechanical keyboards 
 | Java · Python · SQL | QMK · microcontrollers | Maya · Blender |
 | HTML · CSS · C | I²C · SPI | 3D modelling · printing |
 
+---
 
 ## Projects
 
@@ -66,6 +68,7 @@ Converts QMK keyboard layouts (`keyboard.json` / `info.json`) into a format that
 
 A collection of 3D-printable switch plates and keyboard cases designed by me.
 
+---
 
 ## Elsewhere
 
