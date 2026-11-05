@@ -1,87 +1,120 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-  <title id="title">Brotbeutel — a keyboard maker's corner</title>
-  <desc id="desc">A warm, printed-paper style banner with chunky vintage keycaps and a small retro computer-inspired motif.</desc>
+  <title id="title">Brotbeutel.exe — developer workspace</title>
+  <desc id="desc">A Windows 2000 inspired desktop application showing code, keyboard firmware and a small CRT computer.</desc>
   <defs>
-    <pattern id="paper" width="46" height="46" patternUnits="userSpaceOnUse">
-      <circle cx="5" cy="8" r=".8" fill="#806f54" opacity=".16"/>
-      <circle cx="29" cy="31" r=".65" fill="#806f54" opacity=".12"/>
-      <path d="M13 39l4-.5M36 9l3 .4" stroke="#806f54" stroke-width=".6" opacity=".12"/>
-    </pattern>
-    <pattern id="weave" width="8" height="8" patternUnits="userSpaceOnUse">
-      <path d="M0 0H8M0 0V8" stroke="#4c493c" stroke-width=".6" opacity=".12"/>
+    <linearGradient id="titlebar" x2="0" y2="1">
+      <stop offset="0" stop-color="#66543d"/>
+      <stop offset="1" stop-color="#40372c"/>
+    </linearGradient>
+    <linearGradient id="button" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1eadc"/>
+      <stop offset=".48" stop-color="#c9c0b1"/>
+      <stop offset="1" stop-color="#8e877d"/>
+    </linearGradient>
+    <linearGradient id="screen" x2="0" y2="1">
+      <stop offset="0" stop-color="#202a29"/>
+      <stop offset="1" stop-color="#29332f"/>
+    </linearGradient>
+    <pattern id="pixelgrid" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4M0 0V4" stroke="#fff" stroke-opacity=".025" stroke-width=".5"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="390" fill="#e9dfc9"/>
-  <rect width="1200" height="390" fill="url(#paper)"/>
-  <rect x="17" y="17" width="1166" height="356" fill="none" stroke="#514b3c" stroke-width="2"/>
-  <rect x="24" y="24" width="1152" height="342" fill="none" stroke="#a46d45" stroke-width="1"/>
-
-  <g transform="translate(62 54)">
-    <text x="0" y="12" fill="#9a5638" font-family="monospace" font-size="13" letter-spacing="3">NOTES FROM THE KEYBOARD WORKSHOP</text>
-    <text x="-2" y="103" fill="#38382f" font-family="Georgia,serif" font-size="72" font-weight="bold" letter-spacing="-2">BROTBEUTEL</text>
-    <path d="M2 123h540" stroke="#9a5638" stroke-width="4"/>
-    <text x="2" y="169" fill="#514b3c" font-family="Georgia,serif" font-size="27" font-style="italic">Keyboards, code &amp; other things made by hand.</text>
-    <g transform="translate(2 220)">
-      <rect x="0" y="0" width="120" height="31" fill="#6d7456"/>
-      <text x="60" y="21" text-anchor="middle" fill="#f2e9d8" font-family="monospace" font-size="12" letter-spacing="1">BUILD</text>
-      <rect x="130" y="0" width="120" height="31" fill="#a45e3f"/>
-      <text x="190" y="21" text-anchor="middle" fill="#f2e9d8" font-family="monospace" font-size="12" letter-spacing="1">MOD</text>
-      <rect x="260" y="0" width="120" height="31" fill="#514b3c"/>
-      <text x="320" y="21" text-anchor="middle" fill="#f2e9d8" font-family="monospace" font-size="12" letter-spacing="1">MAKE</text>
-    </g>
-    <text x="2" y="292" fill="#766d59" font-family="monospace" font-size="12" letter-spacing="2">A PERSONAL COLLECTION OF PROJECTS &amp; EXPERIMENTS</text>
+  <!-- Main application window -->
+  <rect x="5" y="5" width="1190" height="380" fill="#1c1b1a"/>
+  <rect x="8" y="8" width="1184" height="374" fill="#bcb5a8"/>
+  <rect x="11" y="11" width="1178" height="368" fill="#393735"/>
+  <rect x="14" y="14" width="1172" height="34" fill="url(#titlebar)"/>
+  <rect x="14" y="14" width="1172" height="34" fill="none" stroke="#796b56" stroke-width="1"/>
+  <g transform="translate(24 20)">
+    <rect width="21" height="21" fill="#c3b69a" stroke="#1d1b18" stroke-width="2"/>
+    <rect x="3" y="3" width="15" height="10" fill="#52635d"/>
+    <path d="M4 15h13M6 17h9" stroke="#292722" stroke-width="2"/>
+    <path d="M6 5h4M6 8h7" stroke="#e6d8b9" stroke-width="1"/>
+  </g>
+  <text x="54" y="37" fill="#f1e9d8" font-family="monospace" font-size="18" font-weight="bold">Brotbeutel.exe — Developer Workspace</text>
+  <g transform="translate(1145 18)">
+    <rect width="31" height="25" fill="url(#button)" stroke="#1b1a19" stroke-width="2"/>
+    <path d="M8 7l15 12M23 7L8 19" stroke="#292723" stroke-width="2"/>
   </g>
 
-  <!-- A little old-school keyboard, drawn like a print illustration -->
-  <g transform="translate(710 64) rotate(5 210 125)">
-    <path d="M22 22L418 0L444 222L45 249Z" fill="#514b3c"/>
-    <path d="M10 9L406 -12L432 210L33 237Z" fill="#b7a78a" stroke="#38382f" stroke-width="4"/>
-    <path d="M22 21L394 2L416 194L44 215Z" fill="#6d7456" stroke="#38382f" stroke-width="3"/>
-    <path d="M22 21L394 2L416 194L44 215Z" fill="url(#weave)"/>
-    <g transform="translate(42 35) skewY(-3)">
-      <g fill="#e9dfc9" stroke="#514b3c" stroke-width="2">
-        <rect x="0" y="0" width="48" height="43"/>
-        <rect x="56" y="-3" width="48" height="43"/>
-        <rect x="112" y="-6" width="48" height="43"/>
-        <rect x="168" y="-9" width="48" height="43"/>
-        <rect x="224" y="-12" width="48" height="43"/>
-        <rect x="280" y="-15" width="48" height="43"/>
-        <rect x="0" y="51" width="48" height="43"/>
-        <rect x="56" y="48" width="48" height="43"/>
-        <rect x="112" y="45" width="48" height="43"/>
-        <rect x="168" y="42" width="48" height="43"/>
-        <rect x="224" y="39" width="48" height="43"/>
-        <rect x="280" y="36" width="48" height="43"/>
-        <rect x="0" y="102" width="65" height="43"/>
-        <rect x="73" y="99" width="48" height="43"/>
-        <rect x="129" y="96" width="144" height="43"/>
-        <rect x="281" y="93" width="48" height="43"/>
-      </g>
-      <g fill="#514b3c" font-family="monospace" font-size="12" text-anchor="middle">
-        <text x="24" y="27">Q</text><text x="80" y="24">W</text><text x="136" y="21">E</text><text x="192" y="18">R</text><text x="248" y="15">T</text><text x="304" y="12">Z</text>
-        <text x="24" y="78">A</text><text x="80" y="75">S</text><text x="136" y="72">D</text><text x="192" y="69">F</text><text x="248" y="66">G</text><text x="304" y="63">H</text>
-        <text x="32" y="129">SHIFT</text><text x="97" y="126">CTRL</text><text x="201" y="123">SPACE</text><text x="305" y="120">FN</text>
-      </g>
-      <rect x="168" y="42" width="48" height="43" fill="#c18a52" stroke="#514b3c" stroke-width="2">
-        <animate attributeName="y" values="42;46;42" dur="3.6s" repeatCount="indefinite"/>
+  <!-- Menu and toolbar -->
+  <rect x="14" y="49" width="1172" height="27" fill="#393735"/>
+  <g fill="#e6dfd1" font-family="monospace" font-size="13">
+    <text x="27" y="67">File</text><text x="68" y="67">Edit</text><text x="111" y="67">View</text><text x="163" y="67">Build</text><text x="218" y="67">Tools</text><text x="276" y="67">Help</text>
+  </g>
+  <path d="M14 77H1186" stroke="#777168" stroke-width="1"/>
+
+  <!-- Editor window -->
+  <rect x="25" y="87" width="695" height="247" fill="#171716" stroke="#171615" stroke-width="2"/>
+  <rect x="28" y="90" width="689" height="24" fill="url(#titlebar)"/>
+  <text x="39" y="107" fill="#f0e7d5" font-family="monospace" font-size="12" font-weight="bold">j80_3000.c — Source Editor</text>
+  <g transform="translate(677 94)">
+    <rect width="14" height="14" fill="url(#button)" stroke="#242321"/>
+    <path d="M3 7h8" stroke="#292723" stroke-width="1.5"/>
+  </g>
+  <rect x="29" y="115" width="687" height="216" fill="#252523"/>
+  <rect x="29" y="115" width="42" height="216" fill="#302f2c"/>
+  <path d="M71 115V331" stroke="#5b554c"/>
+  <g font-family="monospace" font-size="14">
+    <g fill="#8b8579" text-anchor="end">
+      <text x="61" y="138">01</text><text x="61" y="163">02</text><text x="61" y="188">03</text><text x="61" y="213">04</text><text x="61" y="238">05</text><text x="61" y="263">06</text><text x="61" y="288">07</text><text x="61" y="313">08</text>
+    </g>
+    <g>
+      <text x="88" y="138" fill="#c59a62">#include</text><text x="165" y="138" fill="#d9d2c4">&lt;QMK_KEYBOARD_H&gt;</text>
+      <text x="88" y="163" fill="#c59a62">#define</text><text x="157" y="163" fill="#d9d2c4">I2C_EXPANDER</text><text x="295" y="163" fill="#9baf91"> MCP23017</text>
+      <text x="88" y="188" fill="#9baf91">// custom matrix scanning</text>
+      <text x="88" y="213" fill="#b8a2c8">void</text><text x="127" y="213" fill="#d9d2c4"> matrix_init_custom</text><text x="307" y="213" fill="#c8c1b4"> (void) {</text>
+      <text x="108" y="238" fill="#d9d2c4">i2c_init();</text>
+      <text x="108" y="263" fill="#d9d2c4">expander_init();</text>
+      <text x="108" y="288" fill="#d9d2c4">keyboard_setup();</text>
+      <text x="88" y="313" fill="#c8c1b4">}</text>
+    </g>
+  </g>
+  <rect x="88" y="319" width="9" height="2" fill="#e2c58f">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Right side: retro CRT / computer -->
+  <rect x="739" y="87" width="435" height="247" fill="#302e2b" stroke="#8b8275" stroke-width="2"/>
+  <rect x="743" y="91" width="427" height="24" fill="url(#titlebar)"/>
+  <text x="755" y="108" fill="#f0e7d5" font-family="monospace" font-size="12" font-weight="bold">Build Monitor — QMK / J-Keebs</text>
+  <g transform="translate(767 127)">
+    <path d="M0 14L236 0L249 145L13 158Z" fill="#181817" stroke="#81786b" stroke-width="3"/>
+    <path d="M12 23L225 11L235 132L24 145Z" fill="url(#screen)" stroke="#b3a58e" stroke-width="5"/>
+    <path d="M12 23L225 11L235 132L24 145Z" fill="url(#pixelgrid)"/>
+    <g transform="translate(30 43)" font-family="monospace" font-size="12">
+      <text x="0" y="0" fill="#d2c39e">C:\BRO TBEUTEL\QMK&gt;</text>
+      <text x="0" y="24" fill="#a7bd9c">Compiling firmware...</text>
+      <text x="0" y="48" fill="#a7bd9c">Linking keyboard.elf</text>
+      <text x="0" y="72" fill="#d3b27b">BUILD SUCCESSFUL</text>
+      <rect x="0" y="83" width="8" height="13" fill="#d3b27b">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
       </rect>
-      <text x="192" y="69" fill="#38382f" font-family="monospace" font-size="12" text-anchor="middle">F</text>
     </g>
-    <path d="M51 222l365-19" stroke="#38382f" stroke-width="3"/>
-    <text x="405" y="232" fill="#e9dfc9" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="1">CUSTOM / ISO-DE</text>
+    <path d="M99 151l-4 23h57l-7-23" fill="#aaa18f" stroke="#4b4841" stroke-width="3"/>
+    <path d="M75 175h100l17 12H59Z" fill="#c2b8a5" stroke="#4b4841" stroke-width="3"/>
+    <g fill="#5a554c">
+      <rect x="78" y="178" width="13" height="5"/><rect x="95" y="178" width="13" height="5"/><rect x="112" y="178" width="13" height="5"/><rect x="129" y="178" width="13" height="5"/><rect x="146" y="178" width="13" height="5"/>
+    </g>
   </g>
 
-  <!-- Small maker's stamp -->
-  <g transform="translate(1090 75) rotate(9)">
-    <circle cx="0" cy="0" r="37" fill="none" stroke="#a45e3f" stroke-width="2"/>
-    <circle cx="0" cy="0" r="30" fill="none" stroke="#a45e3f" stroke-width="1" stroke-dasharray="2 3"/>
-    <text x="0" y="-3" text-anchor="middle" fill="#a45e3f" font-family="Georgia,serif" font-size="20" font-weight="bold">J-K</text>
-    <text x="0" y="13" text-anchor="middle" fill="#a45e3f" font-family="monospace" font-size="7" letter-spacing="1">MADE BY HAND</text>
+  <!-- Project status panel -->
+  <g transform="translate(1034 132)">
+    <text x="0" y="0" fill="#c9c0b2" font-family="monospace" font-size="11">WORKSPACE</text>
+    <path d="M0 8h112" stroke="#71685b"/>
+    <text x="0" y="31" fill="#c59a62" font-family="monospace" font-size="12">JAVA</text>
+    <text x="0" y="54" fill="#c59a62" font-family="monospace" font-size="12">PYTHON</text>
+    <text x="0" y="77" fill="#c59a62" font-family="monospace" font-size="12">QMK / C</text>
+    <text x="0" y="100" fill="#c59a62" font-family="monospace" font-size="12">3D / CAD</text>
+    <circle cx="8" cy="124" r="4" fill="#9aab82"/>
+    <text x="19" y="128" fill="#c9c0b2" font-family="monospace" font-size="10">READY</text>
   </g>
-  <g transform="translate(1110 310)">
-    <path d="M0 0h40v3H0z" fill="#9a5638"/>
-    <path d="M0 9h25v3H0z" fill="#6d7456"/>
-    <path d="M0 18h34v3H0z" fill="#514b3c"/>
-  </g>
+
+  <!-- Status bar -->
+  <rect x="25" y="344" width="1149" height="27" fill="#393735" stroke="#1c1b19" stroke-width="2"/>
+  <path d="M28 347h1143v21H28Z" fill="none" stroke="#716b61"/>
+  <text x="39" y="362" fill="#c7beb0" font-family="monospace" font-size="12">Ready</text>
+  <text x="135" y="362" fill="#c7beb0" font-family="monospace" font-size="12">J80-3000 · Lucky65 V2 · Fat Plate Generator · J-Keebs</text>
+  <text x="1158" y="362" text-anchor="end" fill="#c7beb0" font-family="monospace" font-size="12">CPU: OK</text>
 </svg>
