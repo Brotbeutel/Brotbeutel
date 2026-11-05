@@ -10,7 +10,7 @@
   <a href="mailto:jannik_schlueter@hotmail.de">Email</a>
 </p>
 
-
+---
 ## About
 
 I'm Jannik, based near Heidelberg, Germany. My background is in 3D and visual effects, followed by almost a decade in hospitality. These days I'm working towards a career in software development through an **Umschulung as Fachinformatiker für Anwendungsentwicklung** at GFN.
