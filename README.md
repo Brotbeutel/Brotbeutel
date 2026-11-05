@@ -10,7 +10,6 @@
   <a href="mailto:jannik_schlueter@hotmail.de">Email</a>
 </p>
 
----
 
 ## About
 
@@ -23,7 +22,6 @@ I enjoy projects where software, hardware and design meet. Mechanical keyboards 
 | Java · Python · SQL | QMK · microcontrollers | Maya · Blender |
 | HTML · CSS · C | I²C · SPI | 3D modelling · printing |
 
----
 
 ## Projects
 
@@ -68,7 +66,6 @@ Converts QMK keyboard layouts (`keyboard.json` / `info.json`) into a format that
 
 A collection of 3D-printable switch plates and keyboard cases designed by me.
 
----
 
 ## Elsewhere
 
