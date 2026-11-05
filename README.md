@@ -1,78 +1,78 @@
-<h1 align="center">Hi, I'm Jannik</h1>
-<h3 align="center">Aspiring Application Developer | Java, Python & SQL | Custom Mechanical Keyboards</h3>
-
+<h1 align="center">Jannik <span aria-hidden="true">⌁</span> Brotbeutel</h1>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Brotbeutel&label=Profile+views&color=0e75b6&style=flat" alt="Profile views" />
+  <kbd>KEYBOARDS</kbd> <kbd>CODE</kbd> <kbd>DESIGN</kbd> <kbd>MAKING</kbd>
+</p>
+<p align="center">
+  I build mechanical keyboards, write the tools around them and bring a bit of design into the mix.
+</p>
+<p align="center">
+  <a href="https://brotbeutel.github.io/j-keebs/index.html">J-Keebs</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/jannik-schl%C3%BCter-103270423/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:jannik_schlueter@hotmail.de">Email</a>
 </p>
 
 ---
 
-### About Me
+## About
 
-After training as a 3D & Visual Effects Artist and spending almost a decade in hospitality, I'm now turning that experience into a new career in software development.
+I'm Jannik, based near Heidelberg, Germany. My background is in 3D and visual effects, followed by almost a decade in hospitality. These days I'm working towards a career in software development through an **Umschulung as Fachinformatiker für Anwendungsentwicklung** at GFN.
 
-- Trained 3D & Visual Effects Artist, skilled in Autodesk Maya and Blender
-- Currently in a retraining program (Umschulung) to become an application developer (Fachinformatiker Anwendungsentwicklung) at GFN in Heidelberg
-- Learning Java, HTML, CSS, and Python, plus a growing familiarity with C picked up through QMK and my J80-3000 builds
-- Next build: turning a G80-3000 wireless with ZMK and an nRF52840 microcontroller
-- Based near Heidelberg, Germany
-- Always happy to help if you need a keyboard built, fixed, or just want advice, feel free to reach out, also I'm able to print custom switch plates
-- Past builds are on my keyboard portfolio: [J-Keebs](https://brotbeutel.github.io/j-keebs)
+I enjoy projects where software, hardware and design meet. Mechanical keyboards are a pretty good excuse to explore all three.
+
+- **Code:** Java, Python, SQL, HTML, CSS and a bit of C
+- **Hardware & firmware:** QMK, microcontrollers, I²C and SPI
+- **Design & making:** Autodesk Maya, Blender, 3D modelling and printing
 
 ---
 
-### Projects
+## Projects
 
-**[QMK Firmware Fork](https://github.com/Brotbeutel/qmk_firmware)**
-Home to my two most involved keyboard builds, J80-3000 I2C and J80-3000 SPI, both based on a Cherry G80-3000 with the original controller replaced by a Blackpill microcontroller and the GPIO count extended via an MCP23017 (I2C) or MCP23S17 (SPI) expander. My most demanding project so far.
+### Website
 
-**[j80_3000_documentation](https://github.com/Brotbeutel/j80_3000_documentation)**
-Supporting documentation for both G80-3000 builds: datasheets, pinouts, and build notes.
+**[J-Keebs](https://github.com/Brotbeutel/Brotbeutel.github.io)** · [Visit the website](https://brotbeutel.github.io/j-keebs/index.html)
 
-**[Kundenverwaltung](https://github.com/Brotbeutel/Kundenverwaltung)**
-A customer management web app (Flask, SQLAlchemy, SQLite) with employee login, role management, and GDPR-compliant deletion. Built as a group project with two classmates during the retraining program.
+A website about mechanical keyboards. I use it to document my builds, share mods and collect other keyboard-related projects.
 
-**[J-Keebs](https://github.com/Brotbeutel/Brotbeutel.github.io)**
-My mechanical keyboard website, currently under construction. I present my keyboard portfolio there and write about mechanical keyboards while practicing my HTML and CSS skills.
+### Keyboard Builds
+
+**[J80-3000](https://github.com/Brotbeutel/qmk_firmware)** · [Documentation](https://github.com/Brotbeutel/j80_3000_documentation)
+
+Two custom builds based on the Cherry G80-3000. Both replace the original controller with a Blackpill microcontroller and use an I/O expander to handle the additional GPIOs.
+
+- **I²C:** MCP23017 connected via I²C.
+- **SPI:** MCP23S17 connected via SPI.
+
+The firmware for both builds lives in my [QMK fork](https://github.com/Brotbeutel/qmk_firmware). The documentation repo contains datasheets, pinouts and build notes.
+
+**[Lucky65 V2 – ISO Conversion](https://github.com/Brotbeutel/qmk_firmware)**
+
+Converted the Lucky65 V2 from ANSI to ISO and added QMK support. The firmware is part of my QMK fork.
+
+### Keyboard Tools
+
+**[Fat Plate Generator](https://github.com/Brotbeutel/Fat-Plate-Generator)**
+
+Generates 3D-printable keyboard plates as STL files from KLE raw data.
+
+**[QMK to KLE Converter](https://github.com/Brotbeutel/qmk2kle-converter)**
+
+Converts QMK keyboard layouts (`keyboard.json` / `info.json`) into a format that can be imported into the Keyboard Layout Editor.
+
+### Keyboard Printables
+
+**[Plates'n'Cases](https://github.com/Brotbeutel/Plates-n-Cases)**
+
+A collection of 3D-printable switch plates and keyboard cases designed by me.
 
 ---
 
-### Tech Stack
+## Elsewhere
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
-</p>
+- [J-Keebs – keyboard builds and projects](https://brotbeutel.github.io/j-keebs/index.html)
+- [GitHub repositories](https://github.com/Brotbeutel?tab=repositories)
+- [LinkedIn](https://www.linkedin.com/in/jannik-schl%C3%BCter-103270423/)
+- [Email](mailto:jannik_schlueter@hotmail.de)
 
----
-
-### GitHub Stats
-
-<p align="left">
-  <img height="165" src="./profile/stats.svg" alt="GitHub Stats" />
-  <img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
-</p>
-
----
-
-### Contact
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/jannik-schl%C3%BCter-103270423/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:jannik_schlueter@hotmail.de">
-    <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
-  </a>
-  <a href="https://brotbeutel.github.io/j-keebs">
-    <img src="https://img.shields.io/badge/Keyboard_Portfolio-J--Keebs-1a1a1a?style=for-the-badge" />
-  </a>
-</p>
-
-<p align="center"><i>Ask me about mechanical keyboards, I'm happy to talk about it.</i></p>
+<p align="center"><i>Always happy to talk keyboards, custom builds or weird little maker projects.</i></p>
