@@ -1,5 +1,13 @@
 <p align="center">
-  <img src="./assets/keyboard-workbench.svg" alt="Brotbeutel – keyboards, code and design" width="100%" />
+  <table>
+    <tr>
+      <td bgcolor="#eee9dc" align="center">
+        <img src="./assets/keyboard-workbench.svg" alt="Brotbeutel.exe — Developer Workspace" width="520" />
+        <br />
+        <sub><b>BROTBEUTEL.EXE — DEVELOPER WORKSPACE</b></sub>
+      </td>
+    </tr>
+  </table>
 </p>
 
 <p align="center">
@@ -35,18 +43,25 @@ A website about mechanical keyboards. I use it to document my builds, share mods
 
 ### Keyboard Builds
 
-**[J80-3000](https://github.com/Brotbeutel/qmk_firmware)** · [Documentation](https://github.com/Brotbeutel/j80_3000_documentation)
+<table>
+  <tr>
+    <td width="34%" bgcolor="#eee9dc" align="center">
+      <img src="https://raw.githubusercontent.com/Brotbeutel/j-keebs/main/images/Cherry_J80-3000_I2C.jpg" alt="Cherry J80-3000 I2C custom keyboard build" width="190" />
+      <br />
+      <sub><b>J80-3000 · I²C BUILD</b></sub>
+    </td>
+    <td valign="top">
+      **[J80-3000](https://github.com/Brotbeutel/qmk_firmware)** · [Documentation](https://github.com/Brotbeutel/j80_3000_documentation)
 
-Two custom builds based on the Cherry G80-3000. Both replace the original controller with a Blackpill microcontroller and use an I/O expander to handle the additional GPIOs.
+      Two custom builds based on the Cherry G80-3000. Both replace the original controller with a Blackpill microcontroller and use an I/O expander to handle the additional GPIOs.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Brotbeutel/j-keebs/main/images/Cherry_J80-3000_I2C.jpg" alt="Cherry J80-3000 I2C custom keyboard build" width="82%" />
-</p>
+      - **I²C:** MCP23017 connected via I²C.
+      - **SPI:** MCP23S17 connected via SPI.
 
-- **I²C:** MCP23017 connected via I²C.
-- **SPI:** MCP23S17 connected via SPI.
-
-The firmware for both builds lives in my [QMK fork](https://github.com/Brotbeutel/qmk_firmware). The documentation repo contains datasheets, pinouts and build notes.
+      The firmware for both builds lives in my [QMK fork](https://github.com/Brotbeutel/qmk_firmware). The documentation repo contains datasheets, pinouts and build notes.
+    </td>
+  </tr>
+</table>
 
 **[Lucky65 V2 – ISO Conversion](https://github.com/Brotbeutel/qmk_firmware)**
 
